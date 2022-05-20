@@ -4,7 +4,7 @@ fetch("https://restcountries.com/v2/all")
   .then((json) => {
     for (let i = 0; i < json.length; i++) {
       var x = document.createElement("li")
-      var content = `<div class="card" style="width:200px">
+      var content = `<div class="card" style="width:350px">
                          <img class="card-img-top" src="countryFlag" alt="Card image">
                         <div class="card-body">
                          <h4 class="card-title">countryName</h4>
